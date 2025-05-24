@@ -23,8 +23,8 @@ author:
   # Biographic information
   avatar           : "newpic.png"
   name             : "Lukas"
-  pronouns         : "they/them"  
-  bio              : "Researcher in Representation Learning and Deep Learning"
+  pronouns         : # pronouns 
+  bio              : "Researcher in Representation Learning, Active Learning and Deep Learning"
   location         : "Earth"
   employer         : "University of Kassel"
   uri              : # URL
