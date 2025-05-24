@@ -6,6 +6,18 @@ redirect_from:
   - /about/
   - /about.html
 ---
+Hey 🤗 I am a researcher and part of the [Intelligent Embedded Systems (IES) group](https://www.uni-kassel.de/eecs/ies/) led by [Bernhard Sick](https://www.uni-kassel.de/eecs/ies/bernhard-sick) at the University of Kassel, Germany.
+
+## Research Interests
+
+My broad interest lies in representation learning and active learning, with a foundational focus on large language models and sample-efficient learning strategies. I'm currently branching out to the intersection of deep learning and biodiversity, particularly through bioacoustics. I’m excited by the potential of foundation models tailored to ecological domains and see the creation of robust datasets and benchmarks as a critical pillar of this work. Unifying these areas, my goal is to advance methods that not only learn efficiently but also contribute meaningfully to scientific and environmental understanding.
+
+
+## News
+
+- [April 2025] We published the pre-print of our work "[Can Masked Autoencoders also Listen to Birds?](https://arxiv.org/pdf/2504.12880)", soon to be submitted to TMLR.
+- [February 2025] Our paper "[BirdSet: A Large-Scale Dataset for Audio Classification in Avian Bioacoustics](https://openreview.net/pdf?id=dRXxFEY8ZE)" was accepted as a Spotlight Paper at the International Conference on Learning Representations (ICLR) 2025 in Singapore. 
+ 
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
