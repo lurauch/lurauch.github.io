@@ -21,7 +21,7 @@ repository               : "lurauch/lurauch.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "newpic.png"
   name             : "Lukas"
   pronouns         : "they/them"  
   bio              : "Researcher @ Intelligent Embedded Systems Group"
