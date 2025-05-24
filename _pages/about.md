@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a deep learningresearcher and part of the [Intelligent Embedded Systems (IES) group](https://www.uni-kassel.de/eecs/ies/) led by [Bernhard Sick](https://www.uni-kassel.de/eecs/ies/bernhard-sick) at the University of Kassel, Germany.
+I am a deep learning researcher and part of the [Intelligent Embedded Systems (IES) group](https://www.uni-kassel.de/eecs/ies/) led by [Bernhard Sick](https://www.uni-kassel.de/eecs/ies/bernhard-sick) at the University of Kassel, Germany.
 
 ## Research Interests
 
