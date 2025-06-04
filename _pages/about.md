@@ -14,7 +14,7 @@ My broad interest lies in representation learning and active learning, with a fo
 
 
 ## News
-
+- [June 2025] We published the pre-print of our work "[No Free Lunch in Active Learning: LLM Embedding Quality Dictates Query Strategy Success](https://arxiv.org/abs/2506.01992)", currently under review. 
 - [April 2025] We published the pre-print of our work "[Can Masked Autoencoders also Listen to Birds?](https://arxiv.org/pdf/2504.12880)", soon to be submitted to TMLR.
 - [February 2025] Our paper "[BirdSet: A Large-Scale Dataset for Audio Classification in Avian Bioacoustics](https://openreview.net/pdf?id=dRXxFEY8ZE)" was accepted as a Spotlight Paper at the International Conference on Learning Representations (ICLR) 2025 in Singapore. 
  
