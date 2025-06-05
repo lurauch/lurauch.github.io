@@ -19,13 +19,8 @@ My broad interest lies in representation learning and active learning, with a fo
 - [February 2025] Our paper "[BirdSet: A Large-Scale Dataset for Audio Classification in Avian Bioacoustics](https://openreview.net/pdf?id=dRXxFEY8ZE)" was accepted as a Spotlight Paper at the International Conference on Learning Representations (ICLR) 2025 in Singapore. 
  
 
-## Workshops & Talks
 
-**Deep Learning with Humans-In-The-Loop: Active Learning for NLP** (July 2024)
 
-![BERD@NFDI Workshop](/images/berd1.jpeg) 
-
-I had the pleasure of conducting a full-day workshop titled "Deep Learning with Humans-In-The-Loop: Active Learning for NLP" on July 4th, 2024. This event was part of the [BERD Academy by BERD@NFDI](https://www.berd-nfdi.de/berd-academy/active-learning-2024/). The workshop introduced participants to the concepts of Human-In-The-Loop Learning and (Deep) Active Learning with LLMs. [More details about the workshop can be found here.](https://www.berd-nfdi.de/berd-academy/active-learning-2024/)
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
