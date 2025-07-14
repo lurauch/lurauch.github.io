@@ -14,14 +14,23 @@
   bottom: 0em;
   height: auto;
   /* sticky footer fix end */
+  // margin-top: 3em;
+  // color: mix(#fff, $gray, 25%);
+  // -webkit-animation: intro 0.3s both;
+  //         animation: intro 0.3s both;
+  // -webkit-animation-delay: 0.45s;
+  //         animation-delay: 0.45s;
+  // background-color: $lighter-gray;
+  // border-top: 1px solid $light-gray;
+
   margin-top: 3em;
-  color: mix(#fff, $gray, 25%);
+  color: mix(#000, $gray, 25%);                    // Change: darker text color  
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  background-color: $lighter-gray;
-  border-top: 1px solid $light-gray;
+  background-color: darken($background-color, 5%); // Change: use dark background
+  border-top: 1px solid $border-color;            // Change: use border color variable
 
   footer {
     @include clearfix;

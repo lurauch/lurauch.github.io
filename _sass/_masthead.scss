@@ -2,9 +2,14 @@
    MASTHEAD
    ========================================================================== */
 
+
+// .masthead {
+//   position: fixed;
+//   background: white;
+//   border-bottom: 1px solid $border-color;
 .masthead {
   position: fixed;
-  background: white;
+  background: $background-color;  // Change from 'white' to use the variable
   border-bottom: 1px solid $border-color;
   height: $masthead-height;
   top: 0;

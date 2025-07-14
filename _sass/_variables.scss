@@ -61,18 +61,35 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
-
-$primary-color              : #7a8288;
+$primary-color              : #7c9885;  // Softer green-gray
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
-$info-color                 : #2f7f93;
+$info-color                 : #3c7a3c;  // Lighter blue for better contrast
+
+// Dark theme colors
+$body-color                 : #252a34;  // Dark background
+$background-color           : #11141b;  // Dark background  
+$code-background-color      : #1f242d;  // Darker code background
+$code-background-color-dark : #1f242d;
+$text-color                 : #eaeaea;  // Light text
+$border-color               : #3f4448;  // Dark borders
+
+// $body-color                 : #fff;
+// $background-color           : #fff;
+// $code-background-color      : #fafafa;
+// $code-background-color-dark : $light-gray;
+// $text-color                 : $dark-gray;
+// $border-color               : $lighter-gray;
+
+// $primary-color              : #7a8288;
+// $success-color              : #62c462;
+// $warning-color              : #f89406;
+// $danger-color               : #ee5f5b;
+// $info-color                 : #2f7f93;
+
+
+
 
 /* brands */
 $behance-color              : #1769FF;
