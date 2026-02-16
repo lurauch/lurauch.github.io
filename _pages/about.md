@@ -13,6 +13,7 @@ I am a [deep learning researcher](https://scholar.google.com/citations?user=bB2A
 My research focuses on data-centric deep learning methods, particularly self-supervised and active learning approaches. I work at the intersection of machine learning and bioacoustics, developing foundation models and large-scale benchmarks that advance both fields. My goal is to establish bioacoustics as a frontier domain for deep learning research while translating state-of-the-art methods into practical tools for conservation and environmental monitoring. I am committed to building infrastructure for reproducible science through unified evaluation frameworks and open-source resources.
 
 ## News
+- [February 2026] Our paper [Unmute the Patch Tokens: Rethinking Probing in Multi-Label Audio Classification](https://openreview.net/forum?id=FbY5Co2NWk) was accepted as at the International Conference on Learning Representations (ICLR) 2026 in Rio de Janeiro, Brazil.
 - [October 2025] We published the pre-print of our work [Unmute the Patch Tokens: Rethinking Probing in Multi-Label Audio Classification
 ](https://arxiv.org/abs/2509.24901), currently under review. 
 - [August 2025] Our paper [Can Masked Autoencoders also Listen to Birds?](https://openreview.net/pdf?id=GIBWR0Xo2J) was accepted to the Transactions on Machine Learning Research (TMLR) 2025.
