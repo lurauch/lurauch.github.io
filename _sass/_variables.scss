@@ -61,19 +61,19 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-$primary-color              : #7c9885;  // Softer green-gray
+$primary-color              : #8ba888;  // Lighter, more vibrant green
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
-$info-color                 : #3c7a3c;  // Lighter blue for better contrast
+$info-color                 : #5da9a2;  // Teal - more modern than dark green
 
-// Dark theme colors
-$body-color                 : #252a34;  // Dark background
-$background-color           : #11141b;  // Dark background  
-$code-background-color      : #1f242d;  // Darker code background
-$code-background-color-dark : #1f242d;
-$text-color                 : #eaeaea;  // Light text
-$border-color               : #3f4448;  // Dark borders
+// Warmer, lighter dark theme colors
+$body-color                 : #2d3142;  // Warmer navy instead of pure dark
+$background-color           : #1a1d29;  // Softer dark background  
+$code-background-color      : #242838;  // Lighter code background
+$code-background-color-dark : #242838;
+$text-color                 : #f0f0f0;  // Brighter text for better readability
+$border-color               : #4a4e58;  // Lighter borders for better visibility
 
 // $body-color                 : #fff;
 // $background-color           : #fff;
@@ -120,10 +120,10 @@ $xing-color                 : #006567;
 
 /* links */
 $link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
+$link-color-hover           : #7dd3c0;  // Bright teal on hover
+$link-color-visited         : mix(#fff, $link-color, 15%);
 $masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$masthead-link-color-hover  : lighten($primary-color, 15%);
 
 
 /*

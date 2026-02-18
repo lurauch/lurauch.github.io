@@ -40,3 +40,71 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+/* Custom styling to personalize the site */
+
+/* Enhanced avatar with glow effect */
+.author__avatar img {
+  border: 3px solid #8ba888 !important;
+  box-shadow: 0 4px 20px rgba(139, 168, 136, 0.3);
+  transition: all 0.3s ease;
+  
+  &:hover {
+    box-shadow: 0 6px 30px rgba(139, 168, 136, 0.5);
+    transform: scale(1.02);
+  }
+}
+
+/* Modern link hover effect */
+.page__content a:not(.btn) {
+  position: relative;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease;
+  
+  &:hover {
+    border-bottom-color: #7dd3c0;
+  }
+}
+
+/* Styled news section */
+.page__content ul li {
+  padding-left: 0.5em;
+  margin-bottom: 0.8em;
+}
+
+/* Better heading contrast */
+h1, h2, h3 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+h2 {
+  border-bottom: 2px solid #8ba888;
+  padding-bottom: 0.3em;
+  margin-top: 1.5em;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Improve sidebar readability */
+.sidebar .author__bio {
+  line-height: 1.6;
+  color: #d0d0d0;
+}
+
+/* Better button styling */
+.btn--inverse {
+  background-color: #8ba888 !important;
+  color: #1a1d29 !important;
+  font-weight: 600;
+  
+  &:hover {
+    background-color: #9fc49c !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(139, 168, 136, 0.3);
+  }
+}
+
