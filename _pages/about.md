@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a [deep learning researcher](https://scholar.google.com/citations?user=bB2A6e0AAAAJ&hl=en) and part of the [Intelligent Embedded Systems (IES) group](https://www.uni-kassel.de/eecs/en/sections/intelligent-embedded-systems/home.html) led by [Bernhard Sick](https://scholar.google.de/citations?user=sGAKnroAAAAJ&hl=en) at the University of Kassel, Germany.
+I am a [postdoctoral deep learning researcher](https://scholar.google.com/citations?user=bB2A6e0AAAAJ&hl=en) currently working at the [Earth Species Project (ESP)](https://earthspecies.org/). Previously, I was a PhD student and researcher with the [Intelligent Embedded Systems (IES) group](https://www.uni-kassel.de/eecs/en/sections/intelligent-embedded-systems/home.html) at the University of Kassel in Germany. 
+
 
 ---
 
@@ -20,6 +21,8 @@ My goal is to establish bioacoustics as a frontier domain for deep learning rese
 ---
 
 ## News
+
+- **[April 2026]** Our paper [BAT: Better Audio Transformer Guided by Convex Gated Probing](https://arxiv.org/abs/2602.16305) was accepted at the **International Conference on Machine Learning (ICML) 2026** in Seoul, South Korea.
 
 - **[February 2026]** Our paper [Unmute the Patch Tokens: Rethinking Probing in Multi-Label Audio Classification](https://openreview.net/forum?id=FbY5Co2NWk) was accepted at the **International Conference on Learning Representations (ICLR) 2026** in Rio de Janeiro, Brazil.
 
