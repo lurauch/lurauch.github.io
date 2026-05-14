@@ -22,6 +22,8 @@ My goal is to establish bioacoustics as a frontier domain for deep learning rese
 
 ## News
 
+- **[May 2026]** I've started a new position as a Postdoctoral Researcher at the Earth Species Project (ESP).
+
 - **[April 2026]** Our paper [BAT: Better Audio Transformer Guided by Convex Gated Probing](https://arxiv.org/abs/2602.16305) was accepted at the **International Conference on Machine Learning (ICML) 2026** in Seoul, South Korea.
 
 - **[February 2026]** Our paper [Unmute the Patch Tokens: Rethinking Probing in Multi-Label Audio Classification](https://openreview.net/forum?id=FbY5Co2NWk) was accepted at the **International Conference on Learning Representations (ICLR) 2026** in Rio de Janeiro, Brazil.
