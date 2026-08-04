@@ -172,6 +172,9 @@ exclude:
   - config
   - Dockerfile
   - Gemfile
+  - Gemfile.dev
+  - preview.sh
+  - scripts
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
