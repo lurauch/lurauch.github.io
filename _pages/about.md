@@ -11,11 +11,11 @@ redirect_from:
   <div class="rail__body">
     <h1 class="name">Lukas Rauch</h1>
     <p class="role">Postdoctoral Researcher<span class="dot">/</span>Earth Species Project</p>
-    <p class="intro" markdown="1">I am a [postdoctoral deep learning researcher](https://scholar.google.com/citations?user=bB2A6e0AAAAJ&hl=en) currently working at the [Earth Species Project (ESP)](https://earthspecies.org/). Previously, I was a PhD student and researcher with the [Intelligent Embedded Systems (IES) group](https://www.uni-kassel.de/eecs/en/sections/intelligent-embedded-systems/home.html) at the University of Kassel in Germany.</p>
+    <p class="intro">I am a postdoctoral deep learning researcher currently working at the Earth Species Project (ESP). Previously, I was a PhD student and researcher with the Intelligent Embedded Systems (IES) group at the University of Kassel in Germany.</p>
     <p class="quicklinks">
-      <a href="https://scholar.google.com/citations?user=bB2A6e0AAAAJ&hl=en">Google Scholar<span class="arr">↗</span></a>
-      <a href="https://github.com/lurauch">GitHub<span class="arr">↗</span></a>
-      <a href="mailto:lukas@earthspecies.org">lukas@earthspecies.org</a>
+      <a href="https://scholar.google.com/citations?user=bB2A6e0AAAAJ&hl=en"><i class="ai ai-google-scholar" aria-hidden="true"></i>Google Scholar<span class="arr">↗</span></a>
+      <a href="https://github.com/lurauch"><i class="fab fa-github" aria-hidden="true"></i>GitHub<span class="arr">↗</span></a>
+      <a href="mailto:lukas@earthspecies.org"><i class="fas fa-envelope" aria-hidden="true"></i>lukas@earthspecies.org</a>
     </p>
   </div>
 </section>

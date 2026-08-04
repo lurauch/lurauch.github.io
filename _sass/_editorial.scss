@@ -21,32 +21,32 @@
   --gutter: 3.25rem;
   --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
 
-  /* dark is the default */
-  --bg: #0a0a0a;
-  --surface: #101010;
-  --line: #202020;
-  --line-2: #2d2d2d;
-  --text: #ededed;
-  --muted: #9a9a9a;
-  --faint: #6a6a6a;
-  --accent: #9fd8c0;
-  --accent-hi: #c3ebda;
-  --accent-line: rgba(159, 216, 192, 0.5);
-  --img-fade: 1;
+  /* off-white, faintly warmed toward red, is the default */
+  --bg: #faf7f5;
+  --surface: #fffdfc;
+  --line: #ece2df;
+  --line-2: #dbcfcb;
+  --text: #1b1615;
+  --muted: #655c58;
+  --faint: #8e8480;
+  --accent: #a83a2e;
+  --accent-hi: #85281e;
+  --accent-line: rgba(168, 58, 46, 0.45);
+  --img-fade: 0.94;
 }
 
-:root[data-theme="light"] {
-  --bg: #fbfbfa;
-  --surface: #ffffff;
-  --line: #e6e5e1;
-  --line-2: #d3d1cb;
-  --text: #16161a;
-  --muted: #605f5a;
-  --faint: #8b8983;
-  --accent: #2c6a57;
-  --accent-hi: #1d4c3d;
-  --accent-line: rgba(44, 106, 87, 0.45);
-  --img-fade: 0.94;
+:root[data-theme="dark"] {
+  --bg: #0c0a0a;
+  --surface: #131010;
+  --line: #241f1e;
+  --line-2: #322b2a;
+  --text: #efeae8;
+  --muted: #9d9491;
+  --faint: #6d6461;
+  --accent: #e8897c;
+  --accent-hi: #f3aca1;
+  --accent-line: rgba(232, 137, 124, 0.5);
+  --img-fade: 1;
 }
 
 /*
@@ -157,9 +157,9 @@ figcaption { font-family: var(--sans); font-size: 0.8rem; color: var(--faint); }
 .archive > .page__title::before {
   content: "";
   display: block;
-  width: 18px;
-  border-top: 1px solid var(--accent);
-  margin-bottom: 0.75rem;
+  width: 22px;
+  border-top: 2px solid var(--accent);
+  margin-bottom: 0.7rem;
 }
 
 @media screen and (min-width: 900px) {
@@ -324,8 +324,8 @@ figcaption { font-family: var(--sans); font-size: 0.8rem; color: var(--faint); }
 .theme-toggle:hover { color: var(--accent); }
 
 .theme-toggle .fa-sun { display: none; }
-:root[data-theme="light"] .theme-toggle .fa-sun { display: inline-block; }
-:root[data-theme="light"] .theme-toggle .fa-moon { display: none; }
+:root[data-theme="dark"] .theme-toggle .fa-sun { display: inline-block; }
+:root[data-theme="dark"] .theme-toggle .fa-moon { display: none; }
 
 /*
    Text
@@ -428,7 +428,7 @@ figcaption { font-family: var(--sans); font-size: 0.8rem; color: var(--faint); }
   margin: 0 0 1.5rem;
 }
 
-.page__content .role .dot { color: var(--line-2); padding: 0 0.5rem; }
+.page__content .role .dot { color: var(--accent); padding: 0 0.5rem; }
 
 .page__content .intro {
   font-size: 1.05rem;
@@ -452,7 +452,7 @@ figcaption { font-family: var(--sans); font-size: 0.8rem; color: var(--faint); }
   font-weight: 450;
   color: var(--muted);
   text-decoration: none;
-  border-bottom: 1px solid var(--line-2);
+  border-bottom: 1px solid var(--accent-line);
   padding-bottom: 2px;
 }
 
@@ -466,6 +466,16 @@ figcaption { font-family: var(--sans); font-size: 0.8rem; color: var(--faint); }
   padding-left: 0.25rem;
   color: var(--faint);
 }
+
+.page__content .quicklinks a i {
+  width: 1em;
+  margin-right: 0.45rem;
+  color: var(--faint);
+  font-size: 0.95em;
+  transition: color 0.16s var(--ease);
+}
+
+.page__content .quicklinks a:hover i { color: var(--accent); }
 
 /*
    Definition rows (research topics) — a spec sheet, not cards
