@@ -40,4 +40,12 @@
       try { localStorage.setItem("theme", next); } catch (e) {}
     });
   })();
+
+  // greedy-nav measures link widths on load, before the web font swaps in,
+  // so it can wrongly decide the nav overflows. Re-measure once fonts settle.
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(function () {
+      window.dispatchEvent(new Event("resize"));
+    });
+  }
 </script>

@@ -2,7 +2,7 @@
 layout: archive
 title: "Workshop and Talks"
 permalink: /talks/
-author_profile: true
+author_profile: false
 ---
 
 <div class="lead" markdown="1">

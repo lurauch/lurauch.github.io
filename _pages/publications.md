@@ -2,7 +2,7 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
 
 <div class="lead" markdown="1">
@@ -10,53 +10,36 @@ A short curated selection of my most important current publications. For a compl
 </div>
 
 <!--
-  To add a publication, copy one <article class="pub"> block below and edit it.
-  pub__venue = conference / journal + year, pub__tag = optional highlight.
+  To add a publication, copy one <li class="work"> block below and edit it.
+  work__meta holds the venue and year, plus an optional highlight.
 -->
-<div class="pubs">
-
-  <article class="pub">
-    <div class="pub__meta">
-      <span class="pub__venue">ICML 2026</span>
+<ul class="worklist">
+  <li class="work">
+    <div class="work__main">
+      <a class="work__title" href="https://arxiv.org/abs/2602.16305">BAT: Better Audio Transformer Guided by Convex Gated Probing</a>
+      <p class="work__links"><a href="https://arxiv.org/abs/2602.16305">Paper ↗</a></p>
     </div>
-    <h3 class="pub__title"><a href="https://arxiv.org/abs/2602.16305">BAT: Better Audio Transformer Guided by Convex Gated Probing</a></h3>
-    <div class="pub__links">
-      <a href="https://arxiv.org/abs/2602.16305">Paper</a>
+    <div class="work__meta">ICML 2026</div>
+  </li>
+  <li class="work">
+    <div class="work__main">
+      <a class="work__title" href="https://openreview.net/forum?id=FbY5Co2NWk">Unmute the Patch Tokens: Rethinking Probing in Multi-Label Audio Classification</a>
+      <p class="work__links"><a href="https://openreview.net/forum?id=FbY5Co2NWk">OpenReview ↗</a><a href="https://arxiv.org/abs/2509.24901">arXiv ↗</a></p>
     </div>
-  </article>
-
-  <article class="pub">
-    <div class="pub__meta">
-      <span class="pub__venue">ICLR 2026</span>
+    <div class="work__meta">ICLR 2026</div>
+  </li>
+  <li class="work">
+    <div class="work__main">
+      <a class="work__title" href="https://openreview.net/pdf?id=GIBWR0Xo2J">Can Masked Autoencoders also Listen to Birds?</a>
+      <p class="work__links"><a href="https://openreview.net/pdf?id=GIBWR0Xo2J">Paper ↗</a><a href="https://arxiv.org/pdf/2504.12880">arXiv ↗</a></p>
     </div>
-    <h3 class="pub__title"><a href="https://openreview.net/forum?id=FbY5Co2NWk">Unmute the Patch Tokens: Rethinking Probing in Multi-Label Audio Classification</a></h3>
-    <div class="pub__links">
-      <a href="https://openreview.net/forum?id=FbY5Co2NWk">OpenReview</a>
-      <a href="https://arxiv.org/abs/2509.24901">arXiv</a>
+    <div class="work__meta">TMLR 2025</div>
+  </li>
+  <li class="work">
+    <div class="work__main">
+      <a class="work__title" href="https://openreview.net/pdf?id=dRXxFEY8ZE">BirdSet: A Large-Scale Dataset for Audio Classification in Avian Bioacoustics</a>
+      <p class="work__links"><a href="https://openreview.net/pdf?id=dRXxFEY8ZE">Paper ↗</a><a href="https://github.com/DBD-research-group/BirdSet">Code ↗</a></p>
     </div>
-  </article>
-
-  <article class="pub">
-    <div class="pub__meta">
-      <span class="pub__venue">TMLR 2025</span>
-    </div>
-    <h3 class="pub__title"><a href="https://openreview.net/pdf?id=GIBWR0Xo2J">Can Masked Autoencoders also Listen to Birds?</a></h3>
-    <div class="pub__links">
-      <a href="https://openreview.net/pdf?id=GIBWR0Xo2J">Paper</a>
-      <a href="https://arxiv.org/pdf/2504.12880">arXiv</a>
-    </div>
-  </article>
-
-  <article class="pub">
-    <div class="pub__meta">
-      <span class="pub__venue">ICLR 2025</span>
-      <span class="pub__tag">Spotlight</span>
-    </div>
-    <h3 class="pub__title"><a href="https://openreview.net/pdf?id=dRXxFEY8ZE">BirdSet: A Large-Scale Dataset for Audio Classification in Avian Bioacoustics</a></h3>
-    <div class="pub__links">
-      <a href="https://openreview.net/pdf?id=dRXxFEY8ZE">Paper</a>
-      <a href="https://github.com/DBD-research-group/BirdSet">Code</a>
-    </div>
-  </article>
-
-</div>
+    <div class="work__meta">ICLR 2025<br><span class="star">Spotlight</span></div>
+  </li>
+</ul>
