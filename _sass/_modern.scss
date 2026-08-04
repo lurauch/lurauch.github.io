@@ -588,8 +588,289 @@ figcaption {
 hr + h2 { margin-top: 2.5rem; }
 
 /*
+   Landing page — hero
+   ========================================================================== */
+
+#main.main--full {
+  display: block;
+  max-width: 1080px;
+}
+
+#main.main--full .page,
+#main.main--full .page__inner-wrap {
+  max-width: none;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 3.5rem;
+  padding: 1.5rem 0 3rem;
+}
+
+.hero__greeting {
+  font-size: 1.15rem;
+  color: var(--muted);
+  margin: 0 0 0.5rem;
+}
+
+.hero__name {
+  font-family: var(--font-display);
+  font-size: clamp(2.6rem, calc(1.5rem + 3.6vw), 4.25rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.045em;
+  margin: 0 0 0.85rem;
+}
+
+.hero__role {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  margin: 0 0 1.6rem;
+}
+
+.page__content .hero__lead {
+  font-size: 1.1rem;
+  line-height: 1.62;
+  color: var(--muted);
+  max-width: 34rem;
+  margin: 0;
+}
+
+.page__content .hero__lead a {
+  color: var(--text);
+  text-decoration-color: var(--accent-line);
+}
+
+.page__content .hero__lead a:hover { color: var(--accent); }
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.9rem;
+}
+
+.hero__portrait {
+  position: relative;
+  justify-self: end;
+}
+
+.hero__portrait::before {
+  content: "";
+  position: absolute;
+  inset: -14%;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, var(--accent-soft), transparent 72%);
+  z-index: 0;
+}
+
+.page__content .hero__portrait img {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 250px;
+  max-width: 38vw;
+  border-radius: 26px;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  filter: opacity(var(--img-fade));
+}
+
+/* pills */
+.page__content a.pill,
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1.1rem;
+  border: 1px solid var(--line-2);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: border-color 0.18s var(--ease), color 0.18s var(--ease),
+    background-color 0.18s var(--ease), transform 0.18s var(--ease);
+}
+
+.page__content a.pill:hover {
+  color: var(--accent);
+  border-color: var(--accent-line);
+  transform: translateY(-1px);
+}
+
+.page__content a.pill--primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg);
+}
+
+.page__content a.pill--primary:hover {
+  background: var(--accent-hi);
+  border-color: var(--accent-hi);
+  color: var(--bg);
+}
+
+/* decorative waveform divider */
+.wave {
+  color: var(--accent);
+  opacity: 0.45;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 18%, #000 82%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 18%, #000 82%, transparent);
+}
+
+.wave svg {
+  display: block;
+  width: 100%;
+  height: 40px;
+  fill: currentColor;
+}
+
+/*
+   Landing page — sections
+   ========================================================================== */
+
+.home-section {
+  padding-top: 4.5rem;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  margin: 0 0 0.75rem;
+}
+
+.page__content .home-section > h2 {
+  font-size: clamp(1.55rem, calc(1.25rem + 0.9vw), 2rem);
+  font-weight: 680;
+  letter-spacing: -0.032em;
+  line-height: 1.15;
+  max-width: 28ch;
+  margin: 0 0 1.5rem;
+  padding: 0;
+  border: 0;
+}
+
+.page__content .section-lead {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--muted);
+  max-width: 44rem;
+}
+
+.page__content .section-note {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--faint);
+  max-width: 44rem;
+  margin: 1.75rem 0 0;
+}
+
+.page__content .section-more {
+  margin: 1.5rem 0 0;
+}
+
+.page__content .section-more a {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.page__content .section-more a::after {
+  content: " →";
+  transition: opacity 0.18s var(--ease);
+}
+
+.page__content .section-more a:hover { color: var(--accent); }
+
+/* topic cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+  gap: 0.9rem;
+  margin-top: 2rem;
+}
+
+.card {
+  padding: 1.45rem 1.4rem 1.55rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  transition: border-color 0.2s var(--ease), transform 0.2s var(--ease);
+}
+
+.card:hover {
+  border-color: var(--accent-line);
+  transform: translateY(-2px);
+}
+
+.page__content .card__index {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  margin: 0 0 0.9rem;
+}
+
+.page__content .card h3 {
+  font-size: 0.99rem;
+  font-weight: 640;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.5rem;
+}
+
+.page__content .card p:last-child {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 0;
+}
+
+@media screen and (max-width: 860px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .hero__portrait {
+    order: -1;
+    justify-self: start;
+  }
+
+  .page__content .hero__portrait img {
+    width: 132px;
+    max-width: 40vw;
+    border-radius: 20px;
+  }
+
+  .home-section { padding-top: 3.25rem; }
+  .wave svg { height: 30px; }
+}
+
+@media screen and (max-width: 620px) {
+  .cards { grid-template-columns: 1fr; }
+}
+
+/*
    News timeline
    ========================================================================== */
+
+.news {
+  max-width: 56rem;
+}
 
 .news ul {
   list-style: none;
@@ -701,7 +982,8 @@ hr + h2 { margin-top: 2.5rem; }
   color: var(--accent);
 }
 
-.pub__title {
+.pub__title,
+.page__content .pub__title {
   font-family: var(--font-display);
   font-size: 1.04rem;
   font-weight: 620;
