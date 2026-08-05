@@ -372,7 +372,7 @@ figcaption { font-family: var(--sans); font-size: 0.8rem; color: var(--faint); }
   height: auto;
   border: 1px solid var(--line);
   border-radius: 4px;
-  filter: opacity(var(--img-fade));
+  opacity: var(--img-fade);
 }
 
 .page__content ul,
@@ -406,7 +406,7 @@ figcaption { font-family: var(--sans); font-size: 0.8rem; color: var(--faint); }
   max-width: var(--rail);
   border-radius: 4px;
   border: 1px solid var(--line);
-  filter: opacity(var(--img-fade));
+  opacity: var(--img-fade);
 }
 
 @media screen and (max-width: 899px) {
