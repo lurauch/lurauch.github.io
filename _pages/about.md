@@ -23,12 +23,12 @@ redirect_from:
 <section class="rail">
   <div class="rail__label">Research</div>
   <div class="rail__body">
-    <p class="lede">My work sits at the intersection of <strong>deep learning and animal sound</strong>. I build audio foundation models that learn from large amounts of unlabelled recordings, together with the datasets and evaluation infrastructure needed to tell whether they actually work.</p>
+    <p class="lede">My work sits at the intersection of <strong>deep learning and animal sound</strong>. I build audio foundation models that learn from large amounts of unlabeled and labeled recordings, together with the datasets and evaluation infrastructure needed to tell whether they actually work.</p>
 
     <dl class="deflist">
       <div class="defrow">
         <dt>Self-Supervised Learning</dt>
-        <dd>Pretraining audio transformers without labels — masked autoencoders for bioacoustics, and probing methods that reveal what the learned representations really encode.</dd>
+        <dd>Pretraining audio transformers without labels. Audio SSL for bioacoustics, and probing methods that reveal what the learned representations really encode.</dd>
       </div>
       <div class="defrow">
         <dt>Bioacoustics</dt>
@@ -36,7 +36,7 @@ redirect_from:
       </div>
       <div class="defrow">
         <dt>Active Learning</dt>
-        <dd>Deciding what to annotate when expert labelling is the bottleneck — acquisition strategies, embedding quality, and humans in the loop.</dd>
+        <dd>Deciding what to annotate when expert labeling is the bottleneck, bringing the models to the application in bioacoustics.</dd>
       </div>
     </dl>
 
@@ -87,7 +87,7 @@ redirect_from:
 
 <div class="news" markdown="1">
 
-- **August 2026** We co-organised [Task 4 — Active Learning for Bioacoustics](https://biodcase.github.io/challenge2026/task4) at the **BioDCASE 2026 Challenge**, built on terrestrial data from BirdSet alongside the marine ATBFL dataset. The task has now concluded and the results are online.
+- **August 2026** We co-organized [Task 4 — Active Learning for Bioacoustics](https://biodcase.github.io/challenge2026/task4) at the **BioDCASE 2026 Challenge**, built on terrestrial data from BirdSet alongside the marine ATBFL dataset. The task has now concluded and the results are online.
 
 - **May 2026** I've started a new position as a Postdoctoral Researcher at the Earth Species Project (ESP).
 
