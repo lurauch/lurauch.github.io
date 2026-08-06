@@ -22,6 +22,14 @@ On June 26th, 2025, I conducted the second iteration of my full-day workshop "De
   </article>
 
   <article class="entry" markdown="1">
+  <div class="entry__meta"><span class="entry__kind">Invited Talk</span><span class="entry__date">May 2025</span></div>
+
+### What Do Bird Sounds Have to Do With Wind Turbines?
+
+On May 13th, 2025, I gave a talk titled *"Was haben Vogelstimmen mit Windkraftanlagen zu tun?"* in the public lecture series *"KI, Klima und Energie – Innovationen für eine nachhaltige Zukunft"* ("AI, Climate and Energy – Innovations for a Sustainable Future"), hosted by the Center of Competence for Artificial Intelligence at TH Aschaffenburg. The series ran across eleven talks aimed at a general audience, on applications of AI at the intersection of technology and climate. [Details about the lecture series can be found here.](https://www.th-ab.de/hochschule/aktuelles/veranstaltungen/ringvorlesung-ki-klima-und-energie-innovationen-fuer-eine-nachhaltige-zukunft/)
+  </article>
+
+  <article class="entry" markdown="1">
   <div class="entry__meta"><span class="entry__kind">Workshop</span><span class="entry__date">July 2024</span></div>
 
 ### Deep Learning with Humans-In-The-Loop: Active Learning for NLP
